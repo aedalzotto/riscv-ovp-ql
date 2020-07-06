@@ -1,4 +1,4 @@
-# riscv-ovp-dbg
+# riscv-multi-ql
 
 Imperas QuantumLeap execution example.
 
