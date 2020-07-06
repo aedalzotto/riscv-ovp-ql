@@ -31,7 +31,8 @@ static OP_CONSTRUCT_FN(moduleConstructor)
 	optBusP bus[28];
 	optProcessorP cpu[28];
 	
-	for(int i = 0; i < 28; i++){
+	int i;
+	for(i = 0; i < 28; i++){
 		char name[255];
 
 		sprintf(name, "bus%d", i);
